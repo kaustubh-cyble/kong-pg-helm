@@ -76,7 +76,7 @@ env:
   pg_port: 5432
   pg_user: kong
   pg_password: kong
-  pg_database: postgres
+  pg_database: kong
   nginx_worker_processes: "2"
   proxy_access_log: /dev/stdout
   admin_access_log: /dev/stdout
