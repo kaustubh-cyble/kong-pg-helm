@@ -3,7 +3,7 @@ entries:
   kong:
   - apiVersion: v2
     appVersion: "2.8"
-    created: "2022-05-16T14:46:44.725976+05:30"
+    created: "2022-05-16T14:53:03.402045+05:30"
     description: The Cloud-Native Ingress and API-management
     digest: 850d4a22284c38b69b8c795bb540558fd54d2ac021405bea480f3b035163d5a1
     home: https://konghq.com/
@@ -22,7 +22,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 14.2.0
-    created: "2022-05-16T14:46:44.730531+05:30"
+    created: "2022-05-16T14:53:03.406249+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -52,4 +52,4 @@ entries:
     urls:
     - https://kaustubh-cyble.github.io/kong-pg-helm/charts/postgresql-11.1.15.tgz
     version: 11.1.15
-generated: "2022-05-16T14:46:44.721373+05:30"
+generated: "2022-05-16T14:53:03.395715+05:30"
