@@ -3,7 +3,7 @@ entries:
   kong:
   - apiVersion: v2
     appVersion: "2.8"
-    created: "2022-05-16T12:17:55.732482+05:30"
+    created: "2022-05-16T14:46:44.725976+05:30"
     description: The Cloud-Native Ingress and API-management
     digest: 850d4a22284c38b69b8c795bb540558fd54d2ac021405bea480f3b035163d5a1
     home: https://konghq.com/
@@ -17,4 +17,39 @@ entries:
     urls:
     - https://kaustubh-cyble.github.io/kong-pg-helm/kong-2.8.0.tgz
     version: 2.8.0
-generated: "2022-05-16T12:17:55.728288+05:30"
+  postgresql:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 14.2.0
+    created: "2022-05-16T14:46:44.730531+05:30"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: PostgreSQL (Postgres) is an open source object-relational database
+      known for reliability and data integrity. ACID-compliant, it supports foreign
+      keys, joins, views, triggers and stored procedures.
+    digest: 6cd58726dbb86934829083a948747421540df4476e98fe6a7fee72e00fa09f91
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - https://kaustubh-cyble.github.io/kong-pg-helm/charts/postgresql-11.1.15.tgz
+    version: 11.1.15
+generated: "2022-05-16T14:46:44.721373+05:30"
